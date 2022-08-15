@@ -25,7 +25,7 @@ for (int i = 0; i < n ; i++)
 {
     for (int j = 0; j < m; j ++)
     {
-        matrix2[i,j] = matrix[j,i];//смена мест
+        matrix2[i,j] = matrix[j,i];//*смена строк на столбцы*
         Console.Write(matrix2[i, j] + "\t");// /t - табуляция
     }
     Console.WriteLine();
